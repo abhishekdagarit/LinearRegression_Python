@@ -24,3 +24,18 @@ reg.fit(df[['Height']],df.Weight)
 ```{python}
 reg.predict([[5.4]])
 ```
+## let's take a look at the coefficients
+```{python}
+reg.coef_
+```
+
+## let's take a look at the intercept
+```{python}
+reg.intercept_
+```
+
+## using the linear regression formula to reconcile results
+```{python}
+#y = mx + b
+(5.4) * (20.2182285) + (-37.776636713735584)
+```
