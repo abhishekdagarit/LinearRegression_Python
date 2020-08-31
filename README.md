@@ -7,10 +7,20 @@ import pandas as pd
 import numpy as np
 
 df = pd.read_csv("H:/Machine Learning/linear regression/heightWeightdata.csv")
-df
+```
 
+## Let's take a look at the data
+```{python}
+df
+```
+
+## applying the linear regression model
+```{python}
 reg = linear_model.LinearRegression( )
 reg.fit(df[['Height']],df.Weight)
+```
 
+## checking the prediction
+```{python}
 reg.predict([[5.4]])
 ```
