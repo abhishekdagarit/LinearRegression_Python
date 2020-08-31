@@ -9,7 +9,7 @@ import numpy as np
 df = pd.read_csv("H:/Machine Learning/linear regression/heightWeightdata.csv")
 ```
 
-## Let's take a look at the data
+## let's take a look at the data
 ```{python}
 df
 ```
